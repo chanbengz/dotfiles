@@ -1,0 +1,208 @@
+live_config_reload = true
+
+[scrolling]
+history = 100000
+multiplier = 4
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[window]
+decorations = "buttonless"
+
+[window.dimensions]
+columns = 106
+lines = 30
+
+[window.padding]
+x = 20
+y = 20
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.bright]
+black = "#4d4d4d"
+blue = "#a277ff"
+cyan = "#61ffca"
+green = "#61ffca"
+magenta = "#a277ff"
+red = "#ff6767"
+white = "#edecee"
+yellow = "#ffca85"
+
+[colors.cursor]
+cursor = "#a277ff"
+
+[colors.normal]
+black = "#110f18"
+blue = "#a277ff"
+cyan = "#61ffca"
+green = "#61ffca"
+magenta = "#a277ff"
+red = "#ff6767"
+white = "#edecee"
+yellow = "#ffca85"
+
+[colors.primary]
+background = "#15141b"
+foreground = "#edecee"
+
+[colors.search.focused_match]
+background = "#9F7AF5"
+foreground = "#ffffff"
+
+[colors.search.matches]
+background = "#ffffff"
+foreground = "#000000"
+
+[colors.selection]
+background = "#29263c"
+text = "CellForeground"
+
+[cursor.style]
+shape = "Block"
+
+[font]
+size = 13.0
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[font.bold_italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[font.glyph_offset]
+x = 0
+y = 3
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 9
+
+[[keyboard.bindings]]
+chars = "\f"
+key = "R"
+mode = "~Vi|~Search"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "Hide"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "Quit"
+key = "W"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001Bi"
+key = "I"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bh"
+key = "H"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bj"
+key = "J"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bk"
+key = "K"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bu"
+key = "U"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bo"
+key = "O"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B1"
+key = "1"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B2"
+key = "2"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B3"
+key = "3"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B4"
+key = "4"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B5"
+key = "5"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B6"
+key = "6"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B7"
+key = "7"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001B8"
+key = "8"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0001"
+key = "Left"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0005"
+key = "Right"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+key = "Back"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B\u007F"
+key = "Back"
+mods = "Alt"

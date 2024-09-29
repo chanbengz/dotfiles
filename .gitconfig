@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = chanbengz
+	email = chanben04gz@gmail.com
+	signingkey = B49B44889FADA57383EC9873FC5FB811D0840F99
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset | %ad | %Cblue%d%Creset %s %Cgreen(%an)%Creset' --abbrev-commit --date=short
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
